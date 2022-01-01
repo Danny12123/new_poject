@@ -7,8 +7,7 @@ nav {
   position: fixed;
   width: 100%;
   background-color: #eee;
-  z-index: 999;
-  position: relative; }
+  z-index: 999; }
 
 nav .navigation ul {
   display: flex;
@@ -35,7 +34,7 @@ nav .nav-h2 {
   cursor: pointer;
   padding-left: 30px;
   align-items: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "lato";
   font-size: 25px;
   font-weight: 400;
   color: black;
@@ -52,28 +51,8 @@ nav .nav-h2 {
 #home {
   background-image: linear-gradient(rgba(40, 42, 53, 0.5), rgba(45, 48, 88, 0.5)), url(img/home.jpg);
   background-size: 100vh;
-  background-position: cover; }
-
-#home .nav-h2 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-style: bold;
-  font-size: 40px;
-  font-weight: 500;
-  animation: moveInLeft;
-  animation-duration: 1s;
-  animation-delay: 1s;
-  animation-timing-function: ease-in;
-  backface-visibility: hidden; }
-
-#home .nav-p {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 15px;
-  font-weight: 200;
-  animation: moveInRight;
-  animation-duration: 1s;
-  animation-delay: 1s;
-  animation-timing-function: ease-out;
-  backface-visibility: hidden; }
+  background-position: cover;
+  background-repeat: no-repeat; }
 
 @keyframes moveInLeft {
   0% {
@@ -116,3 +95,9 @@ nav .nav-h2 {
 #home a.yellow:hover {
   color: #000536;
   background-color: #fff; }
+
+#home {
+  background-image: linear-gradient(rgba(40, 42, 53, 0.5), rgba(45, 48, 88, 0.5)), url(img/home.jpg);
+  background-size: 100vh;
+  background-position: cover;
+  background-repeat: no-repeat; }
