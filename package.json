@@ -1,7 +1,7 @@
 {
   "name": "dans-page",
   "version": "1.0.0",
-  "description": "",
+  "description": "about music",
   "main": "index.js",
   "scripts": {
     "compile:sass": "node-sass sass/main.scss style.css -w"
