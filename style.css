@@ -31,7 +31,7 @@ nav .navigation ul li a:hover {
   /*color: $background-buttom-color;*/
   border-bottom: 2px solid #000536; }
 
-.nav-h2 {
+nav .nav-h2 {
   cursor: pointer;
   padding-left: 30px;
   align-items: center;
