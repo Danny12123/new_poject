@@ -3,3 +3,29 @@
     padding: 0;
     margin: 0;
 }
+#home {
+    background-image: linear-gradient(rgba(40, 42, 53, 0.5), rgba(45, 48, 88, 0.5)),url(img/home.jpg);
+    background-size: 100vh;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+#home .nav-h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+    font-size: 40px;
+    font-weight: 500;
+    animation: moveInLeft;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    backface-visibility: hidden; }
+  
+  #home .nav-p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    animation: moveInRight;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+    backface-visibility: hidden; }

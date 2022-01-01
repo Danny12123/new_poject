@@ -7,7 +7,8 @@ nav {
   position: fixed;
   width: 100%;
   background-color: #eee;
-  z-index: 999; }
+  z-index: 999;
+  position: relative; }
 
 nav .navigation ul {
   display: flex;
@@ -48,6 +49,33 @@ nav .navigation ul li a:hover {
   padding: 0;
   margin: 0; }
 
+#home {
+  background-image: linear-gradient(rgba(40, 42, 53, 0.5), rgba(45, 48, 88, 0.5)), url(img/home.jpg);
+  background-size: 100vh;
+  background-position: cover;
+  background-repeat: no-repeat; }
+
+#home .nav-h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: bold;
+  font-size: 40px;
+  font-weight: 500;
+  animation: moveInLeft;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-timing-function: ease-in;
+  backface-visibility: hidden; }
+
+#home .nav-p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+  animation: moveInRight;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-timing-function: ease-out;
+  backface-visibility: hidden; }
+
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -67,3 +95,25 @@ nav .navigation ul li a:hover {
   100% {
     opacity: 1;
     transform: translate(0); } }
+
+#home a.blue {
+  color: #fff;
+  background-color: #000536;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 13px;
+  transition: 0.3s ease-in; }
+
+#home a.blue:hover {
+  color: #000536;
+  background-color: #fff; }
+
+#home a.yellow {
+  color: #fff;
+  background-color: #FDC938;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 13px;
+  transition: 0.3s ease-in; }
+
+#home a.yellow:hover {
+  color: #000536;
+  background-color: #fff; }
