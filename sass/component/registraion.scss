@@ -1,0 +1,62 @@
+#regitration {
+    padding: 6vw 8vw 6vw 8vw;
+    background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url(img/pic-4.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.regi-h1 {
+    align-items: center;
+    padding-left: 250px;
+    font-size: 20px;
+    font-family: 'lato';
+    font-weight: 700;
+}
+#regitration .reginder {
+    color: #fff;
+}
+#regitration .reginder h1 {
+    color: #fff;
+}
+#regitration .reginder .time {
+    display: flex;
+    margin-top: 40px;
+}
+#regitration .form {
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+#regitration .form input {
+    margin: 15px 0;
+    padding: 15px 10px;
+    border: 1px solid rgb(84, 40, 241);
+    outline: none;
+}
+#regitration .form .btn {
+    margin-top: 20px; }
+  
+  #regitration .form a.yellow {
+    color: #fff;
+    background-color: #FDC938;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    transition: 0.3s ease-in;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 11px 35px;
+    background-color: #fff;
+    background: #FDC938;
+    font-weight: 600;
+    border-radius: 5px; }
+  
+  #regitration .form a.yellow:hover {
+    color: #000536;
+    background-color: #fff; 
+}

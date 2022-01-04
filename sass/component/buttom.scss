@@ -1,22 +1,30 @@
-
+#home .btn a {
+  text-decoration: none;
+  font-size: 00.9rem;
+  padding: 13px 35px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+#home .btn {
+  margin-top: 30px;
+}
 #home a.blue {
-    color: #fff;
-    background-color: #000536;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 13px;
-    transition: 0.3s ease-in; }
-  
-  #home a.blue:hover {
-    color: #000536;
-    background-color: #fff; }
-  
-  #home a.yellow {
-    color: #fff;
-    background-color: #FDC938;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 13px;
-    transition: 0.3s ease-in; }
-  
-  #home a.yellow:hover {
-    color: #000536;
-    background-color: #fff; }
+  color: #fff;
+  background-color: #000536;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 13px;
+  transition: 0.3s ease-in; 
+}
+
+#home a.blue:hover {
+  color: #000536;
+  background-color: #fff; 
+}
+
+#home a.yellow {
+  color: #fff;
+  background-color: #FDC938;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 13px;
+  transition: 0.3s ease-in; 
+}

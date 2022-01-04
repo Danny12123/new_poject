@@ -1,0 +1,39 @@
+#banner {
+    background-image: url("img/pic-3.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: top 70px center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    align-items: flex-start; }
+  
+  .banner-cont {
+    margin: 0 150px; }
+  
+  .banner-cont a {
+    text-decoration: none;
+    background-color: #FDC938;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    margin-top: 40px; }
+  
+  .banner-cont a:hover {
+    color: #000536;
+    background-color: #fff; }
+  
+  .banner-cont h4 {
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500; }
+  
+  .banner-cont h1 {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300; }

@@ -1,0 +1,20 @@
+
+
+ #features p {
+     margin-bottom: 18px;
+ }
+.fea-box {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+     grid-gap: 1rem;
+     display: flex;
+ }
+
+#features {
+     padding: 5vw 8vw 0 8vw;
+     text-align: center;
+ }
+.fea-box p {
+     font-size: 16px;
+     font-family: 'lato';
+ }
