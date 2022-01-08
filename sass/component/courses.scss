@@ -45,3 +45,184 @@
     position: absolute;
     right: 50px;
     bottom: 50px; }
+
+    @media (max-width: 1024px) {
+      #courses {
+        padding: 8vw 8vw 8vw 8vw;
+        text-align: center; 
+        width: 1024px;
+      }
+      
+      #courses h3 {
+        font-size: 26px;
+        font-weight: 500;
+        font-family: arial;
+        margin-bottom: 10px; }
+      
+      .str {
+        float: right;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: arial; }
+      
+      .str:hover {
+        color: #777; }
+      
+        #courses .courses h6 {
+          font-size: 20px;
+          font-weight: 500;
+          font-family: 'lato';
+        }
+        #courses .courses span {
+          font-size: 17px;
+          font-weight: 500;
+          font-family: arial;
+        }
+      #courses .courses {
+        text-align: start;
+        background-color: #f9f9ff;
+        height: 100%;
+        position: relative; }
+      
+      #courses .courses img {
+        width: 100%;
+        height: 80%;
+        background-size: cover;
+        background-position: center; }
+      
+      #courses .detais {
+        padding: 15px 15px 0 15px; }
+      
+      #courses .courses .cost {
+        background-color: #151564;
+        color: #fff;
+        line-height: 70px;
+        width: 70px;
+        height: 70px;
+        text-align: center;
+        border-radius: 100%;
+        position: absolute;
+        right: 50px;
+        bottom: 50px; }
+    }
+    @media (max-width: 1024px) {
+      #courses {
+        padding: 8vw 8vw 8vw 8vw;
+        text-align: center; 
+        width: 1024px;
+      }
+      
+      #courses h3 {
+        font-size: 26px;
+        font-weight: 500;
+        font-family: arial;
+        margin-bottom: 10px; }
+      
+      .str {
+        float: right;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: arial; }
+      
+      .str:hover {
+        color: #777; }
+      
+        #courses .courses h6 {
+          font-size: 30px;
+          font-weight: 500;
+          font-family: 'lato';
+        }
+        #courses .courses span {
+          font-size: 23px;
+          font-weight: 500;
+          font-family: arial;
+        }
+      #courses .courses {
+        text-align: start;
+        background-color: #f9f9ff;
+        height: 100%;
+        position: relative; }
+      
+      #courses .courses img {
+        width: 100%;
+        height: 80%;
+        background-size: cover;
+        background-position: center; }
+      
+      #courses .detais {
+        padding: 15px 15px 0 15px; }
+      
+      #courses .courses .cost {
+        background-color: #151564;
+        color: #fff;
+        line-height: 70px;
+        width: 70px;
+        height: 70px;
+        text-align: center;
+        border-radius: 100%;
+        position: absolute;
+        right: 50px;
+        bottom: 50px; }
+    }
+    @media (max-width: 800px) {
+      #courses {
+        padding: 8vw 8vw 8vw 8vw;
+        text-align: center; 
+        width: 800px;
+      }
+      
+      #courses h3 {
+        font-size: 26px;
+        font-weight: 500;
+        font-family: arial;
+        margin-bottom: 10px; }
+      
+      .str {
+        float: right;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: arial; }
+      
+      .str:hover {
+        color: #777; }
+      
+        #courses .courses h6 {
+          font-size: 20px;
+          font-weight: 500;
+          font-family: 'lato';
+        }
+        #courses .courses span {
+          font-size: 13px;
+          font-weight: 500;
+          font-family: arial;
+        }
+      #courses .courses {
+        text-align: start;
+        background-color: #f9f9ff;
+        height: 100%;
+        position: relative; }
+      
+      #courses .courses img {
+        width: 100%;
+        height: 80%;
+        background-size: cover;
+        background-position: center; }
+      
+      #courses .detais {
+        padding: 15px 15px 0 15px; }
+      
+      #courses .courses .cost {
+        background-color: #151564;
+        color: #fff;
+        line-height: 70px;
+        width: 70px;
+        height: 70px;
+        text-align: center;
+        border-radius: 100%;
+        position: absolute;
+        right: 50px;
+        bottom: 50px; }
+    }

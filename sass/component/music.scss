@@ -1,0 +1,54 @@
+.body-music {
+    background-color: #0f0f1b;
+    font-family: arial;
+    color: #fff;
+    letter-spacing: 6px;
+}
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.music-header {
+    text-align: center;
+}
+.music-header h1{
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.music-header p{
+    line-height: 26px;
+    font-weight: 400;
+    padding: 0 130px;
+}
+nav {
+    display: inline-block;
+    width: 100%;
+    border-top: 1px solid #eee;
+}
+nav ul .left{
+    float: left;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 25px;
+}
+nav ul li:last-child {
+    margin-right: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.autoplay_btn label {
+    display: flex;
+    align-items: center;
+}
+.autoplay_btn h5 {
+    margin: 0;
+    font-weight: 500;
+}
+

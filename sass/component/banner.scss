@@ -37,3 +37,99 @@
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 300; }
+
+    /*----media------*/
+
+    @media (max-width: 375px) {
+      #banner {
+        background-image: url("img/pic-3.jpg");
+        width: 375px;
+        height: 40vh;
+        background-size: cover;
+        background-position: top 70px center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        align-items: flex-start; }
+      
+      .banner-cont a {
+        text-decoration: none;
+        background-color: #FDC938;
+        color: #fff;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 13px;
+        padding: 5px 15px 5px 15px;
+        border-radius: 5px;
+        margin-top: 40px; }
+      
+      .banner-cont a:hover {
+        color: #000536;
+        background-color: #fff; }
+      
+      .banner-cont h3 {
+        font-size: 20px;
+        font-family: 'lato';
+        font-weight: 500; }
+  
+    }
+    @media (max-width: 320px) {
+      #banner {
+        background-image: url("img/pic-3.jpg");
+        width: 410px;
+        height: 40vh;
+        background-size: cover;
+        background-position: top 70px center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        align-items: flex-start; }
+      
+      .banner-cont a {
+        text-decoration: none;
+        background-color: #FDC938;
+        color: #fff;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 13px;
+        padding: 5px 15px 5px 15px;
+        border-radius: 5px;
+        margin-top: 40px; }
+      
+      .banner-cont a:hover {
+        color: #000536;
+        background-color: #fff; }
+      
+      .banner-cont h3 {
+        font-size: 20px;
+        font-family: 'lato';
+        font-weight: 500; }
+  
+    }
+    @media (max-width: 768px) {
+      #banner {
+        background-image: url("img/pic-3.jpg");
+        width: 768px;
+        height: 40vh;
+        background-size: cover;
+        background-position: top 70px center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        align-items: flex-start; }
+      
+      .banner-cont a {
+        text-decoration: none;
+        background-color: #FDC938;
+        color: #fff;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 13px;
+        padding: 5px 15px 5px 15px;
+        border-radius: 5px;
+        margin-top: 40px; }
+      
+      .banner-cont a:hover {
+        color: #000536;
+        background-color: #fff; }
+      
+      .banner-cont h3 {
+        font-size: 20px;
+        font-family: 'lato';
+        font-weight: 500; }
+  
+    }

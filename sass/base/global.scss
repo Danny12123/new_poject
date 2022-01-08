@@ -20,8 +20,9 @@
     margin-top: 50px;
 } 
 #home .nav-h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'lato';
     font-style: bold;
+    letter-spacing: 1px;
     font-size: 40px;
     color: #fff;
     font-weight: 500;
@@ -50,4 +51,254 @@
     #experties .export-box .profile img {
         width: 50%;
         height: 50%;
+    }
+
+
+    /*--------media--------*/
+
+    @media (max-width: 375px) {
+        #home {
+            background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url(img/pic-5.jpg);
+            background-position: center;
+            height: 55vh;
+            width: 100%;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        #home .nav-h2 {
+            font-family: 'lato';
+            font-style: bold;
+            font-size: 25px;
+            letter-spacing: 1px;
+            color: #fff;
+            font-weight: 400;
+            text-align: center;
+            animation: moveInLeft;
+            animation-duration: 1s;
+            animation-delay: 1s;
+            animation-timing-function: ease-in;
+            backface-visibility: hidden; 
+        }
+        
+            #home .nav-p {
+                font-family: arial;
+                font-size: 15px;
+                text-align: center;
+                color: #fff;
+                font-weight: 200;
+                letter-spacing: 1px;
+                animation: moveInRight;
+                animation-duration: 1s;
+                animation-delay: 1s;
+                animation-timing-function: ease-out;
+                backface-visibility: hidden; 
+            }
+        
+    }
+    @media (max-width: 411px) {
+        #home {
+            background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url(img/pic-5.jpg);
+            background-position: center;
+            height: 55vh;
+            width: 100%;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        #home .nav-h2 {
+            font-family: 'lato';
+            font-style: bold;
+            font-size: 25px;
+            letter-spacing: 1px;
+            color: #fff;
+            font-weight: 400;
+            text-align: center;
+            animation: moveInLeft;
+            animation-duration: 1s;
+            animation-delay: 1s;
+            animation-timing-function: ease-in;
+            backface-visibility: hidden; 
+        }
+        
+            #home .nav-p {
+                font-family: arial;
+                font-size: 15px;
+                text-align: center;
+                color: #fff;
+                font-weight: 200;
+                letter-spacing: 1px;
+                animation: moveInRight;
+                animation-duration: 1s;
+                animation-delay: 1s;
+                animation-timing-function: ease-out;
+                backface-visibility: hidden; 
+            }
+        
+    }
+    @media (max-width: 320px) {
+        #home {
+            background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url(img/pic-5.jpg);
+            background-position: center;
+            height: 55vh;
+            width: 410px;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        #home .nav-h2 {
+            font-family: 'lato';
+            font-style: bold;
+            font-size: 25px;
+            letter-spacing: 1px;
+            color: #fff;
+            font-weight: 400;
+            text-align: center;
+            animation: moveInLeft;
+            animation-duration: 1s;
+            animation-delay: 1s;
+            animation-timing-function: ease-in;
+            backface-visibility: hidden; 
+        }
+        
+            #home .nav-p {
+                font-family: arial;
+                font-size: 15px;
+                text-align: center;
+                color: #fff;
+                font-weight: 200;
+                letter-spacing: 1px;
+                animation: moveInRight;
+                animation-duration: 1s;
+                animation-delay: 1s;
+                animation-timing-function: ease-out;
+                backface-visibility: hidden; 
+            }
+        
+    }
+    @media (max-width: 414px) {
+        #home {
+            background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url(img/pic-5.jpg);
+            background-position: center;
+            height: 55vh;
+            width: 414px;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+    }
+    @media (max-width: 768px) {
+        #home {
+            background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url(img/pic-5.jpg);
+            background-position: center;
+            height: 55vh;
+            width: 768px;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+    }
+    @media (max-width: 800px) {
+        #home {
+            background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url(img/pic-5.jpg);
+            background-position: center;
+            height: 55vh;
+            width: 800px;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        #home .nav-h2 {
+            font-family: 'lato';
+            font-style: bold;
+            font-size: 30px;
+            letter-spacing: 3px;
+            color: #fff;
+            font-weight: 400;
+            text-align: center;
+            animation: moveInLeft;
+            animation-duration: 1s;
+            animation-delay: 1s;
+            animation-timing-function: ease-in;
+            backface-visibility: hidden; 
+        }
+        
+            #home .nav-p {
+                font-family: arial;
+                font-size: 20px;
+                text-align: center;
+                color: #fff;
+                font-weight: 200;
+                letter-spacing: 2px;
+                animation: moveInRight;
+                animation-duration: 1s;
+                animation-delay: 1s;
+                animation-timing-function: ease-out;
+                backface-visibility: hidden; 
+            }
+    }
+    @media (max-width: 400px) {
+        #home {
+            background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url(img/pic-5.jpg);
+            background-position: center;
+            height: 55vh;
+            width: 400px;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        #home .nav-h2 {
+            font-family: 'lato';
+            font-style: bold;
+            font-size: 30px;
+            letter-spacing: 3px;
+            color: #fff;
+            font-weight: 400;
+            text-align: center;
+            animation: moveInLeft;
+            animation-duration: 1s;
+            animation-delay: 1s;
+            animation-timing-function: ease-in;
+            backface-visibility: hidden; 
+        }
+        
+            #home .nav-p {
+                font-family: arial;
+                font-size: 20px;
+                text-align: center;
+                color: #fff;
+                font-weight: 200;
+                letter-spacing: 2px;
+                animation: moveInRight;
+                animation-duration: 1s;
+                animation-delay: 1s;
+                animation-timing-function: ease-out;
+                backface-visibility: hidden; 
+            }
     }

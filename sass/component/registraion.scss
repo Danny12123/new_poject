@@ -16,10 +16,17 @@
     font-weight: 700;
 }
 #regitration .reginder {
-    color: #fff;
+    color: black;
+    font-size: 15px;
+    font-family: 'lato';
+    font-weight: bold;
 }
+
 #regitration .reginder h1 {
-    color: #fff;
+    color: black;
+    font-size: 25px;
+    font-family: 'lato';
+    font-weight: bold;
 }
 #regitration .reginder .time {
     display: flex;
@@ -59,4 +66,166 @@
   #regitration .form a.yellow:hover {
     color: #000536;
     background-color: #fff; 
+}
+
+/*-----------media-----------*/
+@media (max-width: 375px) {
+    .regi-h1 {
+        padding-left: 40px;
+        font-size: 10px;
+        font-family: 'lato';
+        font-weight: 700;
+        text-align: center;
+    }
+
+    #regitration {
+        padding: 6vw 8vw 6vw 8vw;
+        background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url(img/pic-4.jpg);
+        width: 375px;
+        background-position: center;
+        background-size: cover;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media (max-width: 411px) {
+    .regi-h1 {
+        padding-left: 40px;
+        font-size: 10px;
+        font-family: 'lato';
+        font-weight: 700;
+        text-align: center;
+    }
+
+    #regitration {
+        padding: 6vw 8vw 6vw 8vw;
+        background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url(img/pic-4.jpg);
+        width: 411px;
+        background-position: center;
+        background-size: cover;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media (max-width: 375px) {
+    .regi-h1 {
+        padding-left: 40px;
+        font-size: 10px;
+        font-family: 'lato';
+        font-weight: 700;
+        text-align: center;
+    }
+
+    #regitration {
+        padding: 6vw 8vw 6vw 8vw;
+        background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url(img/pic-4.jpg);
+        width: 375px;
+        background-position: center;
+        background-size: cover;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media (max-width: 414px) {
+    .regi-h1 {
+        padding-left: 40px;
+        font-size: 10px;
+        font-family: 'lato';
+        font-weight: 700;
+        text-align: center;
+    }
+
+    #regitration {
+        padding: 6vw 8vw 6vw 8vw;
+        background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url(img/pic-4.jpg);
+        width: 414px;
+        background-position: center;
+        background-size: cover;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media (max-width: 375px) {
+    .regi-h1 {
+        padding-left: 40px;
+        font-size: 10px;
+        font-family: 'lato';
+        font-weight: 700;
+        text-align: center;
+    }
+
+    #regitration {
+        padding: 6vw 8vw 6vw 8vw;
+        background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url(img/pic-4.jpg);
+        width: 373px;
+        background-position: center;
+        background-size: cover;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media (max-width: 768px) {
+    .regi-h1 {
+        padding-left: 40px;
+        font-size: 10px;
+        font-family: 'lato';
+        font-weight: 700;
+        text-align: center;
+    }
+
+    #regitration {
+        padding: 6vw 8vw 6vw 8vw;
+        background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url(img/pic-4.jpg);
+        width: 768px;
+        background-position: center;
+        background-size: cover;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media (max-width: 1024px) {
+    .regi-h1 {
+        padding-left: 55px;
+        font-size: 10px;
+        font-family: 'lato';
+        font-weight: 700;
+        text-align: center;
+    }
+
+    #regitration {
+        padding: 6vw 8vw 6vw 8vw;
+        background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url(img/pic-4.jpg);
+        width: 1024px;
+        background-position: center;
+        background-size: cover;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media (max-width: 800px) {
+    .regi-h1 {
+        padding-left: 55px;
+        font-size: 10px;
+        font-family: 'lato';
+        font-weight: 700;
+        text-align: center;
+    }
+
+    #regitration {
+        padding: 6vw 8vw 6vw 8vw;
+        background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url(img/pic-4.jpg);
+        width: 800px;
+        background-position: center;
+        background-size: cover;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
