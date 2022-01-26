@@ -1,16 +1,16 @@
 #regitration {
     padding: 6vw 8vw 6vw 8vw;
-    background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url(img/pic-4.jpg);
+   /* background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url(img/pic-4.jpg);*/
     width: 100%;
-    background-position: center;
-    background-size: cover;
+    background-color: #eee;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .regi-h1 {
     align-items: center;
-    padding-left: 250px;
+    text-align: center;
+    display: block;
     font-size: 20px;
     font-family: 'lato';
     font-weight: 700;
@@ -25,12 +25,24 @@
 #regitration .reginder h1 {
     color: black;
     font-size: 25px;
-    font-family: 'lato';
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-weight: bold;
+    padding-top: 0;
 }
-#regitration .reginder .time {
-    display: flex;
-    margin-top: 40px;
+#regitration .reginder p {
+    width: 80%;
+    padding-top: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #000536;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+.form h3 {
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: 600;
 }
 #regitration .form {
     background-color: #fff;
@@ -45,6 +57,10 @@
     padding: 15px 10px;
     border: 1px solid rgb(84, 40, 241);
     outline: none;
+}
+#regitration .form .input-chat {
+    margin: 15px 0;
+    padding: 35px 10px;
 }
 #regitration .form .btn {
     margin-top: 20px; }
@@ -67,165 +83,269 @@
     color: #000536;
     background-color: #fff; 
 }
-
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
 /*-----------media-----------*/
-@media (max-width: 375px) {
-    .regi-h1 {
-        padding-left: 40px;
-        font-size: 10px;
-        font-family: 'lato';
-        font-weight: 700;
-        text-align: center;
-    }
-
+@media (max-width: 600px) {
     #regitration {
         padding: 6vw 8vw 6vw 8vw;
-        background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url(img/pic-4.jpg);
+        /*background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)),
+         url(img/pic-4.jpg);*/
         width: 375px;
-        background-position: center;
-        background-size: cover;
-        display: block;
-        justify-content: space-between;
+        background-color: #eee;
         align-items: center;
+        display: block;
+        width: 100%;
+    }
+    .regi-h1 h1{
+        font-size: 20px;
+        font-family: 'lato';
+        font-weight: 500;
+        
+    }
+    #regitration .reginder {
+        color: black;
+        font-size: 15px;
+        font-family: 'lato';
+        font-weight: bold;
+    }
+    
+    #regitration .reginder h1 {
+        color: black;
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        
+    }
+    #regitration .reginder p {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-size: 1rem;
+        font-weight: 300;
+        color: #000536;
+        font-family: sans-serif;
+    }
+    .form h3 {
+        font-size: 16px;
+        font-family: Arial;
+        font-weight: 600;
+    }
+    #regitration .form {
+        background-color: #fff;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    }
+    #regitration .form input {
+        margin: 15px 0;
+        padding: 15px 10px;
+        border: 1px solid rgb(84, 40, 241);
+        outline: none;
+    }
+    #regitration .form .input-chat {
+        margin: 15px 0;
+        padding: 35px 10px;
+    }
+    #regitration .form .btn {
+        margin-top: 20px; }
+      
+      #regitration .form a.yellow {
+        color: #fff;
+        background-color: #FDC938;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 13px;
+        transition: 0.3s ease-in;
+        text-decoration: none;
+        font-size: 0.9rem;
+        padding: 11px 35px;
+        background-color: #fff;
+        background: #FDC938;
+        font-weight: 600;
+        border-radius: 5px; }
+      
+      #regitration .form a.yellow:hover {
+        color: #000536;
+        background-color: #fff; 
     }
 }
-@media (max-width: 411px) {
-    .regi-h1 {
-        padding-left: 40px;
-        font-size: 10px;
-        font-family: 'lato';
-        font-weight: 700;
-        text-align: center;
-    }
-
-    #regitration {
-        padding: 6vw 8vw 6vw 8vw;
-        background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url(img/pic-4.jpg);
-        width: 411px;
-        background-position: center;
-        background-size: cover;
-        display: block;
-        justify-content: space-between;
-        align-items: center;
-    }
-}
 @media (max-width: 375px) {
-    .regi-h1 {
-        padding-left: 40px;
-        font-size: 10px;
-        font-family: 'lato';
-        font-weight: 700;
-        text-align: center;
-    }
-
     #regitration {
         padding: 6vw 8vw 6vw 8vw;
-        background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url(img/pic-4.jpg);
+        /*background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)),
+         url(img/pic-4.jpg);*/
         width: 375px;
+        background-color: #F9F9FF;
         background-position: center;
         background-size: cover;
-        display: block;
         justify-content: space-between;
         align-items: center;
+    }
+    .regi-h1 h1{
+        font-size: 20px;
+        font-family: 'lato';
+        font-weight: 500;
+        
+    }
+    #regitration .reginder {
+        color: black;
+        font-size: 15px;
+        font-family: 'lato';
+        font-weight: bold;
+    }
+    
+    #regitration .reginder h1 {
+        color: black;
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        
+    }
+    #regitration .reginder p {
+        display: block;
+        padding-top: 10px;
+        font-size: 1rem;
+        font-weight: 300;
+        width: 100%;
+        color: #000536;
+        font-family: sans-serif;
+        padding-bottom: 10px;
+    }
+   
+    .form h3 {
+        font-size: 16px;
+        font-family: Arial;
+        font-weight: 600;
+    }
+    #regitration .form {
+        background-color: #fff;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    }
+    #regitration .form input {
+        margin: 15px 0;
+        padding: 15px 10px;
+        border: 1px solid rgb(84, 40, 241);
+        outline: none;
+    }
+    #regitration .form .input-chat {
+        margin: 15px 0;
+        padding: 35px 10px;
+    }
+    #regitration .form .btn {
+        margin-top: 20px; }
+      
+      #regitration .form a.yellow {
+        color: #fff;
+        background-color: #FDC938;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 13px;
+        transition: 0.3s ease-in;
+        text-decoration: none;
+        font-size: 0.9rem;
+        padding: 11px 35px;
+        background-color: #fff;
+        background: #FDC938;
+        font-weight: 600;
+        border-radius: 5px; }
+      
+      #regitration .form a.yellow:hover {
+        color: #000536;
+        background-color: #fff; 
     }
 }
 @media (max-width: 414px) {
-    .regi-h1 {
-        padding-left: 40px;
-        font-size: 10px;
-        font-family: 'lato';
-        font-weight: 700;
-        text-align: center;
-    }
-
     #regitration {
         padding: 6vw 8vw 6vw 8vw;
-        background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url(img/pic-4.jpg);
-        width: 414px;
-        background-position: center;
-        background-size: cover;
-        display: block;
-        justify-content: space-between;
+        /*background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)),
+         url(img/pic-4.jpg);*/
+        width: 100%;
+        background-color: #F9F9FF;
         align-items: center;
     }
-}
-@media (max-width: 375px) {
-    .regi-h1 {
-        padding-left: 40px;
-        font-size: 10px;
+    .regi-h1 h1{
+        font-size: 20px;
         font-family: 'lato';
-        font-weight: 700;
-        text-align: center;
+        font-weight: 600;
+        
     }
-
-    #regitration {
-        padding: 6vw 8vw 6vw 8vw;
-        background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url(img/pic-4.jpg);
-        width: 373px;
-        background-position: center;
-        background-size: cover;
-        display: block;
-        justify-content: space-between;
-        align-items: center;
-    }
-}
-@media (max-width: 768px) {
-    .regi-h1 {
-        padding-left: 40px;
-        font-size: 10px;
+    #regitration .reginder {
+        color: black;
+        font-size: 15px;
         font-family: 'lato';
-        font-weight: 700;
-        text-align: center;
+        font-weight: bold;
     }
-
-    #regitration {
-        padding: 6vw 8vw 6vw 8vw;
-        background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url(img/pic-4.jpg);
-        width: 768px;
-        background-position: center;
-        background-size: cover;
+    
+    #regitration .reginder h1 {
+        color: black;
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+    }
+    #regitration .reginder p {
+        color: #000536;
         display: block;
-        justify-content: space-between;
-        align-items: center;
+        padding-top: 10px;
+        font-size: 1rem;
+        font-weight: 300;
+        width: 100%;
+        font-family: sans-serif;
+        padding-bottom: 10px;
     }
-}
-@media (max-width: 1024px) {
-    .regi-h1 {
-        padding-left: 55px;
-        font-size: 10px;
-        font-family: 'lato';
-        font-weight: 700;
-        text-align: center;
+    .form h3 {
+        font-size: 16px;
+        font-family: Arial;
+        font-weight: 600;
     }
-
-    #regitration {
-        padding: 6vw 8vw 6vw 8vw;
-        background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url(img/pic-4.jpg);
-        width: 1024px;
-        background-position: center;
-        background-size: cover;
-        display: block;
-        justify-content: space-between;
-        align-items: center;
+    #regitration .form {
+        background-color: #fff;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     }
-}
-@media (max-width: 800px) {
-    .regi-h1 {
-        padding-left: 55px;
-        font-size: 10px;
-        font-family: 'lato';
-        font-weight: 700;
-        text-align: center;
+    #regitration .form input {
+        margin: 15px 0;
+        padding: 15px 10px;
+        border: 1px solid rgb(84, 40, 241);
+        outline: none;
     }
-
-    #regitration {
-        padding: 6vw 8vw 6vw 8vw;
-        background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url(img/pic-4.jpg);
-        width: 800px;
-        background-position: center;
-        background-size: cover;
-        display: block;
-        justify-content: space-between;
-        align-items: center;
+    #regitration .form .input-chat {
+        margin: 15px 0;
+        padding: 35px 10px;
+    }
+    #regitration .form .btn {
+        margin-top: 20px; }
+      
+      #regitration .form a.yellow {
+        color: #fff;
+        background-color: #FDC938;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 13px;
+        transition: 0.3s ease-in;
+        text-decoration: none;
+        font-size: 0.9rem;
+        padding: 11px 35px;
+        background-color: #fff;
+        background: #FDC938;
+        font-weight: 600;
+        border-radius: 5px; }
+      
+      #regitration .form a.yellow:hover {
+        color: #000536;
+        background-color: #fff; 
     }
 }

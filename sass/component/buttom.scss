@@ -28,11 +28,23 @@
   font-size: 13px;
   transition: 0.3s ease-in; 
 }
+#home a.yellow:hover {
+  color: #000536;
+  background-color: #fff; 
+}
+#lean-btn {
+  background-color: #eee;
+  font-size: 10px;
+  font-family: arial;
+  font-weight: 300;
+  color: #000536;
+  padding: 5px;
+  margin-left: 30px;
+  transition: 1s ease;
+}
 
-#menu-btn {
-  width: 30px;
-  height: 30px;
-  display: none; }
+#lean-btn:hover {
+  background-color: #000536;
+  color: #eee;
 
-#menu-close {
-  display: none; }
+}
