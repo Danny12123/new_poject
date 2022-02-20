@@ -48,3 +48,26 @@
   color: #eee;
 
 }
+
+/*--note-dow-buttom--*/
+.download-con p {
+  font-family: arial;
+  font-size: 16px;
+  font-weight: 300;
+  color: rgb(70, 70, 87);
+
+}
+.note-download {
+  outline: none;
+  padding: 5px;
+  color: #000536;
+  background-color: #FDC938;
+  border-radius: 10px;
+  font-size: 17px;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  transition: 0.32s ease-in;
+}
+.note-download:hover{
+  color: #FDC938;
+  background-color: #000536;
+}

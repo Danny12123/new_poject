@@ -1,7 +1,8 @@
 footer {
     padding: 3vw;
-    background-image: linear-gradient(rgba(40, 42, 53, 0.5), 
-    rgba(45, 48, 88, 0.5)), url(pic-6.jpg);
+    background-color: rgb(32, 32, 32);
+    /*background-image: linear-gradient(rgba(40, 42, 53, 0.5), 
+    rgba(45, 48, 88, 0.5)), url(pic-6.jpg);*/
     background-size: cover;
     background-position: top 70px;
     
@@ -37,7 +38,12 @@ footer {
   
   footer p {
     color: #eee; }
-  
+  .footer-col p  { 
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 10px;
+  }
   footer .subscribe {
     margin-top: 20px; 
     align-items: center;
@@ -51,7 +57,10 @@ footer {
     border: none;
     outline: none;
     color: #fff; }
-  
+  footer .subscribe {
+    border-bottom: 3px solid #f1f9f5;
+    padding-bottom: 10px;
+  }
   footer .subscribe a {
     text-decoration: none;
     font-size: 0.9rem;
@@ -80,7 +89,12 @@ footer {
     font-weight: 500;
     align-items: center;
     text-align: center;
-    border-bottom: 2px solid #f1f9f5;
+  }
+  footer .copyright a {
+    padding: 10px;
+    color: #f1f9f5;
+    font-size: 25px;
+    
   }
   
     /*--------media-----*/

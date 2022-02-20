@@ -1,3 +1,4 @@
+//Id home animation
 window.addEventListener('scroll', function(){
     //const logoMain = document.getElementsByClassName('logoimg');
     const mainNav = document.getElementById('mainNav');
@@ -54,14 +55,15 @@ function show_menu() {
     
     element.style.right="220px"
     
-    
 }
+
+//-----------Note buttom display-----------//
 var a;
 function show_hide() {
 
     if(a==1) {
         document.getElementById("note").style.display="inline";
-        return a=0;
+        return a=1;
     }
 
     else {

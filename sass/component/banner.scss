@@ -4,13 +4,19 @@
     height: 50vh;
     background-size: cover;
     background-position: top 70px center;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     align-items: flex-start; }
   
+    #banner .banner-cont {
+      color: #fff;
+      font-size: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+      padding-top: 30px;
+      align-items: center;
+      text-align: center;
+    }
   .banner-cont {
     margin: 0 150px; }
   

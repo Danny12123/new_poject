@@ -1,16 +1,12 @@
    /*note*/
-   #note {
-    padding: 10px 100px ;
-    margin: 0 80px 10px;
-    width: 100%;
-}
-#note .main-note {
-    text-align: center;
-    color: #333;
-    align-items: center;
+
+#note .main-note .step-1 h3{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: 500;
 }
 #note .main-note h3 {
-    text-align: center;
+    text-align: center; 
     font-size: 20px;
     font-weight: 400;
     font-family: Arial;
@@ -55,6 +51,14 @@
     padding: 5px 10px ;
     margin: 0 10px;
 }
+#note .main-note {
+    text-align: center;
+    align-items: center;
+}
+#note .main-note .step-1 {
+    text-align: center;
+    align-items: center;
+}
 #note-2 .note-2 {
     text-align: center;
     align-items: center;
@@ -91,6 +95,14 @@
      #note {
         padding: 5px 10px ;
         margin: 0 10px;
+    }
+    #note .main-note {
+        text-align: center;
+        align-items: center;
+    }
+    #note .main-note .step-1 {
+        text-align: center;
+        align-items: center;
     }
     #note .main-note {
         text-align: center;
@@ -138,6 +150,14 @@
      #note {
         padding: 5px 10px ;
         margin: 0 10px;
+    }
+    #note .main-note {
+        text-align: center;
+        align-items: center;
+    }
+    #note .main-note .step-1 {
+        text-align: center;
+        align-items: center;
     }
     #note .main-note {
         text-align: center;

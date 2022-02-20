@@ -8,7 +8,9 @@
     position: fixed;
     top: 0px;
     height: 80px;
-    transition: 0s ease;
+}
+#home #home-logo #logo img {
+    cursor: pointer;
 }
 #home #home-logo #logo h3 a {
     padding-left: 10px;
@@ -148,6 +150,7 @@
         width: 100%;
         position: fixed;
         top: 0px;
+        height: 80px;
     }
 /*
 .navigation {
